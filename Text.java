@@ -17,6 +17,8 @@ public class Text implements Component{
 	
 	public void draw(Graphics g)
 	{
-		g.drawString(text, x, y);
+		g.drawString(text, x, y); //drawString is from Graphics library to display text
 	}
+	
 }
+
