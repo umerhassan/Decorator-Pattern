@@ -7,9 +7,9 @@ public abstract class Decorator implements Component{
 	int width;
 	public int height;
 	
-	public Decorator(Component t, int x, int y, int width, int height)
-	{
-		this.cmp = t;
+	//Constructor
+	public Decorator(Component cmp, int x, int y, int width, int height) {
+		this.cmp = cmp;
 		this.x = x;
 		this.y = y;
 		this.width = width;
