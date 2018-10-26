@@ -8,11 +8,11 @@ public class Text implements Component{
 	
 	
 	//Constructor
-	public Text(String src, int x, int y)
+	public Text(String src, int a, int b)
 	{
 		text = src;
-		this.x = x;
-		this.y = y;
+		x = a;
+		y = b;
 	}
 	
 	public void draw(Graphics g)
