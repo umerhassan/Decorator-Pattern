@@ -23,7 +23,7 @@ public class DemoDecoratorPattern extends JPanel {
         DemoDecoratorPattern panel = new DemoDecoratorPattern();
         JFrame frame = new JFrame("Learning Decorator Pattern");
         frame.getContentPane().add(panel);
-        frame.setSize(400,400);
+        frame.setSize(400,400); //windowsize
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
